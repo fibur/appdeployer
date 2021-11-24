@@ -30,7 +30,7 @@ or, if you don't need to print file URLs:
 
 ## Installation using Qt Creator
 
-1) Clone, and build AppDeployer using the "Release" kit. You also need to run *windeployqt* on the built executable, to make it work.
+1) Clone, and build AppDeployer using the "Release" kit of Qt version, that is >= 5.15. You also need to run *windeployqt* on the built executable, to make it work.
 2) While in your app's project, in Qt Creator go to *Options* > *Kits*
 ![Step1](assets/install-screens/step1.png)
 3) Clone your kit, and name it, so you can remember it.
@@ -43,6 +43,8 @@ or, if you don't need to print file URLs:
 ## Notes
 
 AppDeployer is by default running in server mode using the 8129 port. The server is minimized to the system tray, from where you can exit it at any time. If you want to change the port, you can pass the *-p* parameter using command-line, or batch file.
+
+AppDeployer should be built using at least Qt 5.15 version.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
